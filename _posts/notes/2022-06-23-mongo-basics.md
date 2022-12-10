@@ -3,6 +3,7 @@ title: "MongoDB Commands"
 date: 2022-06-23
 draft: false
 tags: ["mongo", "cheatsheet", "database"]
+categories: [database]
 ---
 
 show database:

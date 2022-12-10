@@ -3,9 +3,10 @@ title: "Vuejs Deepcopy"
 date: 2022-05-23
 draft: false
 tags: ["vue"]
+categories: [programming]
 ---
 
-#### Mapping objects into new ones 
+#### Mapping objects into new ones
 
 ##### Parent
 

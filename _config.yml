@@ -21,10 +21,10 @@ timezone: America/Vancouver
 
 title: Sisir Ghimire Chettri                          # the main title
 
-tagline: software in mind; data by heart         # it will display as the sub-title
+tagline: neovimmer with Python, Django, Vue.js and Nuxt.js              # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  Sisir Ghimire Chettri
+description: >-                                       # used by seo meta and the atom feed
+  neovimmer with Python, Django, Vue.js and Nuxt.js
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://tuxsisir.github.io'

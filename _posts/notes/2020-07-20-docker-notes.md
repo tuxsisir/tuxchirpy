@@ -2,7 +2,7 @@
 title: "Docker Notes"
 date: 2020-07-20
 draft: false
-tags: ["docker"]
+tags: [docker]
 ---
 
 ### A Brief History Of The Shipping Industry (DOCKER)
@@ -58,7 +58,7 @@ Similar to a VM, a container has its own filesystem, CPU, memory, process space,
 ### docker container vs image
 ---
 
-| docker image                                                                  | docker container                                           |
+| Docker image                                                                  | Docker container                                           |
 |-------------------------------------------------------------------------------|------------------------------------------------------------|
 | - set of layers                                                               | - if we have the running instance of the image = container |
 | - packs up the application and environment required by the application to run | - analogous to "process"                                   |

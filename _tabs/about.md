@@ -3,12 +3,16 @@ title: About Me
 order: 1
 ---
 
-<!--
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
--->
+![AboutMe](https://images.unsplash.com/photo-1516750930166-ed88ab1adb61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3269&q=80){: width="80%" }
+_Photo from unsplash_
 
-Hi there! Welcome to my personal website. This is the place where you will find stuffs that I write about programming and everything in between.
-You will also be able to find other stuff that interests me.
+Hi there! I am **Sisir**, born and raised in Kathmandu, Nepal. Currently, I am residing in BC, Canada.
+
+Welcome to my personal website. This is the place where you will find stuffs that I write about programming and everything in between.
+You will also be able to find other stuff that interests me. I am a _work in progress_ and the contents you find here are of no exception.
+
+> The phrase "I am a work in progress and the contents you find here are of no exception" means that the person speaking or writing is still developing and improving,
+and the things that can be found in their space (such as their website or social media profile) are also still evolving and changing.
+It suggests that the person is open to growth and learning, and that the things they share may not be perfect or final. - OpenAI's ChatGPT
 
 Visit my [Linkedin](https://www.linkedin.com/in/sisir-ghimire-chettri) profile to learn more about my work experiences and education.

@@ -3,55 +3,78 @@ title: "Basic Postgresql Commands"
 date: 2018-02-08
 draft: false
 tags: ["postgresql","cheatsheet", "database"]
+categories: [database]
 ---
 
 ### Create user, database and grant roles
 
 #### Drop Database :
-```shell
-$ drop database john_db;
+```sql
+DROP database john_db;
 ```
 
 #### Create Database :
-```shell
-$ create database john_db;
+```sql
+CREATE DATABASE john_db;
 ```
 
 #### Create User :
-```shell
-$ create user john;
+```sql
+CREATE USER john;
 ```
 
 or,
 
-```shell
-$ create user john with encrypted password 'john@password';
+```sql
+CREATE USER john WITH ENCRYPTED PASSWORD 'john@password';
 ```
 
 #### Alter User :
-```shell
-$ alter user john with encrypted password 'john@password';
+```sql
+ALTER USER john WITH ENCRYPTED PASSWORD 'john@password';
 ```
 
 #### Grant Privileges :
-```shell
-$ grant all privileges on database john_db to john;
+```sql
+GRANT ALL PRIVILEGES ON DATABASE john_db TO john;
+```
+
+#### Grant Privileges of everything to postgres, if not given with:
+
+```sql
+
+grant all privileges on all tables in schema public to postgres;
+
+grant all privileges on all sequences in schema public to postgres;
+
+```
+> Note: A schema is a namespace that contains a collection of database objects, such as tables, views, and functions. The schema public is the default schema.
+{: .prompt-warning }
+
+#### Query all the tables in database
+
+```sql
+SELECT    table_name
+FROM      information_schema.tables
+WHERE     table_schema = 'public'
+ORDER BY  table_name;
 ```
 
 ---
 
 #### Postgres Dumps
 
-
+{% raw %}
 ```shell
 # Export database
 
-$ pg_dump -U {{db_user}} {{db_name}} > `date +%Y-%m-%d-%H:%M:%S`.pgsql
+$ pg_dump -U {{ db_user }} {{ db_name }} > `date +%Y-%m-%d-%H:%M:%S`.pgsql
 
 # Import database
 
-$ psql -U {{db_user}} {{db_name}} < db_backup_to_be_imported.pgsql
+$ psql -U {{ db_user }} {{ db_name }} < db_backup_to_be_imported.pgsql
 ```
+{% endraw %}
 
 #### Unix Domain Socket
 ```shell
@@ -65,4 +88,5 @@ $ rm /usr/local/var/postgres/postmaster.pid
 $ brew services restart postgresql
 ```
 
-https://stackoverflow.com/questions/13410686/postgres-could-not-connect-to-server
+References:
+- [https://stackoverflow.com/questions/13410686/postgres-could-not-connect-to-server](https://stackoverflow.com/questions/13410686/postgres-could-not-connect-to-server)
