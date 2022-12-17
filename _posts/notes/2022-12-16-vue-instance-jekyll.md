@@ -10,12 +10,13 @@ In this post, we'll go through how to embed and use vue from cdn in jekyll post.
 The only thing that we need to make sure is that we don't mix jekyll's moustache {% raw %}`{{ }}`{% endraw %} syntax collide with vue.
 
 There are two ways achieve this:
-1. Either make use of `{% raw %} ... {% endraw %}` within your html.
+1. Either make use of `{% raw %} {% raw %}... {% end raw %}{% endraw %}` within your content.
 2. Or, by adding `delimeter` options in your vue instance.
 
 
-#### The result below is being rendered from **Vue**
+#### The result below is being rendered by adding `delimeter` in **Vue** instance
 
+---
 <div id="app">
   [[ message ]]
   <button name="button" v-on:click="counter++">Counter: [[ counter ]]</button>
