@@ -54,7 +54,7 @@ Thanks for reading!
 <script>
   new Vue({
     el: "#app",
-    delimiters: ['[[', ']]'], // change your delimeter to [[ ]]
+    delimiters: ['[[', ']]'],
     data: {
       counter: 0,
       message: "Hello World from Vue! 🔮",
