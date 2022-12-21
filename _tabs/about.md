@@ -3,7 +3,7 @@ title: About Me
 order: 1
 ---
 
-![AboutMe](https://images.unsplash.com/photo-1516750930166-ed88ab1adb61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3269&q=80){: width="80%" }
+![AboutMe](https://source.unsplash.com/-eDpBjt6UL0/800x300){: width="100%" }
 _Photo from unsplash_
 
 Hi there! I am **Sisir**, born and raised in Kathmandu, Nepal. Currently, I am residing in BC, Canada.
