@@ -21,10 +21,10 @@ timezone: America/Vancouver
 
 title: Sisir Ghimire Chettri                          # the main title
 
-tagline: neovimmer with Python, Django, Vue.js and Nuxt.js              # it will display as the sub-title
+tagline: web apps and data analytics              # it will display as the sub-title
 
 description: >-                                       # used by seo meta and the atom feed
-  neovimmer with Python, Django, Vue.js and Nuxt.js
+  web apps and data analytics
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://tuxsisir.github.io'
