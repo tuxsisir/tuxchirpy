@@ -3,6 +3,7 @@ title: "Git Tags and Pypi"
 date: 2020-07-18
 draft: false
 tags: ["git", "python", "pypi"]
+category: vcs
 ---
 
 ### GIT Tags

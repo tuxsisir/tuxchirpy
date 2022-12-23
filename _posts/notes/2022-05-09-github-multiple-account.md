@@ -3,7 +3,7 @@ title: "Adding multiple Github Accounts"
 date: 2022-05-09
 draft: false
 tags: ["git"]
-categories: [programming]
+category: vcs
 ---
 
 Configure the following things:
