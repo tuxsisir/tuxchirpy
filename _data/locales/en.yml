@@ -10,11 +10,11 @@ layout:
 # The tabs of sidebar
 tabs:
   # format: <filename_without_extension>: <value>
-  home: Home
+  home: Posts
   categories: Categories
   tags: Tags
-  archives: Archives
-  about: About Me
+  archives: Timeline
+  about: whoami
 
 # the text displayed in the search bar & search results
 search:
@@ -58,7 +58,7 @@ post:
   words: words
   pageview_measure: views
   read_time:
-    unit: min
+    unit: minutes
     prompt: read
   relate_posts: Further Reading
   share: Share
