@@ -1,5 +1,5 @@
 ---
-title: Undestanding Git Rebase vs Merge
+title: Understanding Git Rebase vs Merge
 date: 2022-12-23
 tags: ["git"]
 pin: true
