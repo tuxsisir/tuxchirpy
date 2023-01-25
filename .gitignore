@@ -23,3 +23,5 @@ package-lock.json
 # drafts
 _posts/drafts/
 _posts/index.md
+
+temp/

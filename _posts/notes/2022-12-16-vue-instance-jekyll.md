@@ -3,6 +3,7 @@ title: Vue instance in jekyll
 date: 2022-12-16
 tags: ["vue"]
 pin: true
+category: programming
 ---
 
 ### Intro
