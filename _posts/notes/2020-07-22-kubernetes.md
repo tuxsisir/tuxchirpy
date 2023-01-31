@@ -58,7 +58,7 @@ Skafold
 - Kubernetes (works for us) by connecting the pods to the network and rest of the kubernets ecosystem.
 
 
-![](../../images/k8s/pod.png)
+![kubernetes_pod](/assets/img/posts/k8s/pod.png)
 
 ### Kubernetes - Replication Controllers
 ---
@@ -71,8 +71,7 @@ Provides logic for scaling the pod up or down
 
 Through the Replication controllers, kubernetes will manage pod lifecycle, scaling up and down, rolling deployments and monitoring.
 
-![](../../images/k8s/replication-controllers.png)
-
+![replication_controllers](/assets/img/posts/k8s/replication-controllers.png)
 
 ### Kubernetes services
 ---
@@ -88,8 +87,7 @@ Through the Replication controllers, kubernetes will manage pod lifecycle, scali
 - provides VIP layer `???`
 - identifies pods by label selector
 
-![](../../images/k8s/k8s-services.png)
-
+![k8s_services](/assets/img/posts/k8s/k8s-services.png)
 
 ### Kubernetes - Volumes
 ---
@@ -98,7 +96,7 @@ Through the Replication controllers, kubernetes will manage pod lifecycle, scali
 
 volumes maybe backed by storage backends such as: ceph, gluster(red hat), Amazon Elastic Block Store (EBS)
 
-![](../../images/k8s/volumes.png)
+![volumes](/assets/img/posts/k8s/volumes.png)
 
 ### Kubernetes - Namespace
 ---
@@ -123,9 +121,9 @@ kube-public
 - grouping mechanism inside kubernetes
 - services, pods, repliaction controllers and volumes could easily co-operate within a namespace
 
-![](../../images/k8s/namespace.png)
+![namespace](/assets/img/posts/k8s/namespace.png)
 
-![](../../images/k8s/namespace-overview.png)
+![namespace_overview](/assets/img/posts/k8s/namespace-overview.png)
 
 ### Nodes
 ---
@@ -162,11 +160,6 @@ helm has two parts
 helm installed into /usr/local/bin/helm
 tiller installed into /usr/local/bin/tiller
 `Run 'helm init' to configure helm.`
-
-
-References:
-
-https://www.youtube.com/watch?v=4ht22ReBjno
 
 
 ### Best Practices
@@ -219,8 +212,7 @@ Kubernetes is a production-grade, open-source platform that orchestrates the pla
 
 - **Kubernetes automates the distribution and scheduling of application containers across a cluster in a more efficient way.**
 
-![](../../images/k8s/k8s-basic-modules.png)
-
+![k8s_basic_modules](/assets/img/posts/k8s/k8s-basic-modules.png)
 
 ### What are Kubernetes Clusters?
 ---
@@ -231,8 +223,7 @@ Kubernetes is a production-grade, open-source platform that orchestrates the pla
 - node
     - **Nodes** are the workers that run applications.
 
-![](../../images/k8s/kubernetes-cluster-diagram.svg)
-
+![kubernetes-cluster-diagram](/assets/img/posts/k8s/kubernetes-cluster-diagram.svg)
 
 ### Masters
 ---
@@ -245,7 +236,7 @@ Masters manage the cluster and the nodes that are used to host the running appli
 - etcd -> single source of truth regarding the key value pairs of pods information on kubernetes cluster.
 - scheduler / controller as same as their name suggests.
 
-![](../../images/k8s/master-node.jpg)
+![master-node](/assets/img/posts/k8s/master-node.jpg)
 
 ### Node
 
@@ -264,10 +255,7 @@ A node is a VM or a physical computer that serves as a `worker machine` in a Kub
 
 **A Kubernetes cluster that handles production traffic should have a minimum of three nodes.**
 
-![](../../images/k8s/node.png)
-
-![](../../images/k8s/nodes-overview.svg)
-
+![k8s_nodes_overview](/assets/img/posts/k8s/nodes-overview.svg)
 
 ### Kubernetes Deployment (Application Management)
 ---
@@ -288,7 +276,7 @@ Deployment instructs Kubernetes how to create and update instances of our applic
 
 *Applications need to be packaged into one of the supported container formats in order to be deployed on Kubernetes*
 
-![](../../images/k8s/deployment.svg)
+![deployment](/assets/img/posts/k8s/deployment.svg)
 
 ### Pods
 ---
@@ -303,7 +291,7 @@ A Pod is a group of one or more application containers (such as Docker or rkt) a
 
 - In case of Node `failure`, identical pods are scheduled on other available `Nodes` in the cluster.
 
-![](../../images/k8s/pod.svg)
+![pod](/assets/img/posts/k8s/pod.svg)
 
 
 ### Kubernetes Services
@@ -351,18 +339,17 @@ Kubectl uses the Kubernetes API to interact with the cluster
 ### Kubernetes Scaling
 ---
 
-```
-When traffic increases, we will need to scale the application to keep up with user demand.
-```
+
+> When traffic increases, we will need to scale the application to keep up with user demand.
+
 
 - Scaling is accomplished by changing the number of replicas in a Deployment
 
-https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/
 
 ### References
 ---
-
 https://kubernetes.io/docs/tutorials/
+https://kubernetes.io/docs/tutorials/kubernetes-basics/scale/scale-intro/
 
 
 ### Kubernetes Configuration (YAML Cheats)
@@ -383,7 +370,7 @@ https://kubernetes.io/docs/tutorials/
 
 ### Storage Infrastructure
 
-![](../../images/k8s/storage_infrastructure.png)
+![storage_infrastructure](/assets/img/posts/k8s/storage_infrastructure.png)
 
 
 ### Persistent Volume (PV)
@@ -399,41 +386,45 @@ https://kubernetes.io/docs/tutorials/
 - read / write
 - read only
 
-![](../../images/k8s/storage-access-modes.png)
+![storage-access-modes](/assets/img/posts/k8s/storage-access-modes.png)
 
 
 ### Lifecycle of PV
 
-![](../../images/k8s/pv-lifecycle.png)
+![PV_lifecycle](/assets/img/posts/k8s/pv-lifecycle.png)
 
 ### Static PV
 
-![](../../images/k8s/static-pv.png)
+![static_pv](/assets/img/posts/k8s/static-pv.png)
 
 
 ### Dynamic PV
 
-![](../../images/k8s/dynamic-pv.png)
+![dynamic_pv](/assets/img/posts/k8s/dynamic-pv.png)
 
 ### Binding
 - pvc pointing to pv or a storage class = binding
 
-![](../../images/k8s/pv-claims/binding.png)
+![binding_pvc](/assets/img/posts/k8s/pv-claims/binding.png)
 
 ### We cannot bind two pvc's to a single pv
 
-![](../../images/k8s/pv-claims/cannot-bind-2-pvc-to-same-pv.png)
+![cannot_bind_to_same_pv](/assets/img/posts/k8s/pv-claims/cannot-bind-2-pvc-to-same-pv.png)
 
-![](../../images/k8s/pv-claims/cannot-bind-2-pvc-to-same-pv-draw.png)
+![cannot_bind_pod_2_pvc](/assets/img/posts/k8s/pv-claims/cannot-bind-2-pvc-to-same-pv-draw.png)
 
 ### However, we can bind pods to same pvc
-![](../../images/k8s/pv-claims/can-bind-pod.png)
+![can_bind_pod](/assets/img/posts/k8s/pv-claims/can-bind-pod.png)
 
 ### PVC is binded to either PV or StorageClass
-![](../../images/k8s/pv-claims/either-or.png)
+![pvc_binds](/assets/img/posts/k8s/pv-claims/either-or.png)
 
----
----
 ---
 
 ### Secret ConfigMaps
+
+### References:
+- [Youtube@TechWorldwithNana](https://www.youtube.com/@TechWorldwithNana)
+- [https://www.youtube.com/watch?v=4ht22ReBjno](https://www.youtube.com/watch?v=4ht22ReBjno)
+- [IBM Kubernetes Explained](https://www.youtube.com/watch?v=aSrqRSk43lY)
+- [Sean Wingert @ Youtube](https://www.youtube.com/watch?v=OulmwTYTauI)
