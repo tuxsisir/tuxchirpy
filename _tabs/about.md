@@ -1,6 +1,7 @@
 ---
 title: About Me
 order: 1
+icon: fa fa-user
 ---
 
 ![AboutMe](https://source.unsplash.com/-eDpBjt6UL0/800x300){: width="100%" }
