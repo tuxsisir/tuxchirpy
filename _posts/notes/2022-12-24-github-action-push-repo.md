@@ -11,8 +11,8 @@ In this walkthrough, we will push the changes made on one github repo to another
 
 ### Here's the Use Case
 
-> Let us suppose that there are two similar repositories and we would want to share code to parent repo from any another branched repo without disclosing the parent repo. This makes good sense when there is a new developer who needs to be introduced to the repo but the owner of the repo does not want to
-share all the details of the repo initially.
+> Suppose there are two comparable repositories and we aim to transfer code to the main repository from splitted repository without revealing the main repository. This is a sensible approach when a new developer needs to be familiarized with the repository,
+but the repository owner does not want to reveal all the information about it initially.
 {: .prompt-tip }
 
 Let's start with this case scenario.
