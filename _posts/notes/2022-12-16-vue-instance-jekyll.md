@@ -1,12 +1,10 @@
 ---
-title: Vue instance in jekyll
+title: Vue instance in Jekyll
 date: 2022-12-16
 tags: ["vue"]
-pin: true
+pin: false
 category: programming
 ---
-
-### Intro
 
 In this post, we'll go through how to embed and use vue from cdn in jekyll post. It's pretty straightforward to implement.
 The only thing that we need to make sure is that we don't mix jekyll's moustache {% raw %}`{{ }}`{% endraw %} syntax collide with vue.

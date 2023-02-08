@@ -2,7 +2,7 @@
 title: Understanding Git Rebase vs Merge
 date: 2022-12-23
 tags: ["git"]
-pin: true
+pin: false
 category: vcs
 image: https://source.unsplash.com/EUzk9BIEq6M/800x300
 ---

@@ -6,9 +6,9 @@ tags: ["mongo", "cheatsheet", "database"]
 categories: [database]
 ---
 
-show database:
-```console
-> show dbs
+```shell
+# show database:
+$ show dbs
 ```
 
 create database:

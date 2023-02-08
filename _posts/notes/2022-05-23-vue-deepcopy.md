@@ -1,5 +1,5 @@
 ---
-title: "Vuejs Deepcopy"
+title: "Vue.js Deepcopy"
 date: 2022-05-23
 draft: false
 tags: ["vue"]
