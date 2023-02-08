@@ -1,5 +1,5 @@
 ---
-title: "Working with Flask"
+title: "Flask Commands (Way of Django)"
 date: 2022-12-02
 draft: false
 tags: ["python"]

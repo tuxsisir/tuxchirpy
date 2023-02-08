@@ -4,7 +4,7 @@ order: 2
 icon: fa fa-user
 ---
 
-Software Developer with over 5 years of experience in building projects primarily on web. I have developed applications based on wide
+**Software Developer** with over 5 years of experience in building projects primarily on web. I have developed applications based on wide
 variety of client requirements and adhering to changing environment efficiently.
 
 With background in software development, I have recently added **Data Analytics** to my skill set by graduating with a **Post-Baccalaureate
@@ -18,5 +18,3 @@ who is able to meet deadlines, I have demonstrated a commitment to delivering ex
 utilizing Agile methodologies for optimal project success.
 
 **Looking for opportunities as Software Engineer / Developer, Web Developer, Full Stack Developer in Vancouver Area.**
-
-Visit my [Linkedin](https://www.linkedin.com/in/sisir-ghimire-chettri) profile to learn more about my work experiences and education.
