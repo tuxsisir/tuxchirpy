@@ -5,3 +5,31 @@
 #sidebar .nav-link {
   font-size: 1.3rem !important;
 }
+
+.resume-header {
+  background-color: #2A4879;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 14px;
+}
+
+.resume-subheading {
+  background-color: #C9D8EF;
+  padding: 4px;
+  text-align: center;
+}
+
+.resume-separator {
+  margin-bottom: 0rem;
+  margin-top: 0.5rem;
+  border-top: 1px groove #A0A0A0;
+}
+
+ul.resume-dashed {
+  list-style-type: none;
+}
+ul.resume-dashed > li::before {
+  content: "-";
+  position: absolute;
+  left: 20px;
+}
