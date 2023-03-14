@@ -2,10 +2,27 @@
 //   background-image: url("https://images.unsplash.com/photo-1601310960741-599135fc3337?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=995&q=80") !important;
 // }
 
-#sidebar .nav-link {
-  font-size: 1.3rem !important;
+html {
+  font-size: 14px;
 }
 
+body {
+  font-family: 'Merriweather', serif;
+  }
+
+h1, h2, h3, h4, h5, .site-title, .site-nav {
+  font-family: 'Noto Serif', serif;;
+}
+
+#sidebar .nav-link {
+  font-size: 1.2rem !important;
+}
+
+#archives .year::after {
+  content: none;
+}
+
+// Resume custom
 .resume-header {
   background-color: #2A4879;
   color: #ffffff;
@@ -33,3 +50,4 @@ ul.resume-dashed > li::before {
   position: absolute;
   left: 20px;
 }
+

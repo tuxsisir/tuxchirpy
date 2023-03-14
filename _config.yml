@@ -21,13 +21,13 @@ timezone: America/Vancouver
 
 title: Sisir Ghimire Chettri                          # the main title
 
-tagline: Software Development ~ Data Analytics ~ Full Stack Solutions     # it will display as the sub-title
+tagline: tuxsisir                         # it will display as the sub-title
 
 description: >-                                       # used by seo meta and the atom feed
   web apps and data analytics
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://tuxsisir.github.io'
+url: 'https://sisir.net'
 
 github:
   username: tuxsisir             # change to your github username
@@ -53,7 +53,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: UA-170620000-1                # fill in your Google Analytics ID
+  id: G-SB72N0MMYX                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -70,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light  # [light|dark]
+theme_mode: light   # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
