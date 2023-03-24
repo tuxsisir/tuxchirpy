@@ -21,10 +21,10 @@ timezone: America/Vancouver
 
 title: Sisir Ghimire Chettri                          # the main title
 
-tagline: tuxsisir                         # it will display as the sub-title
+tagline: personal pages                         # it will display as the sub-title
 
 description: >-                                       # used by seo meta and the atom feed
-  web apps and data analytics
+  personal pages
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://sisir.net'
